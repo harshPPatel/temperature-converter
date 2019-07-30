@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="326" height="91" viewBox="0 0 326 91">
+  <g id="Group_3" data-name="Group 3" transform="translate(-2271 131)">
+    <g id="Group_2" data-name="Group 2" transform="translate(2212 -201)">
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="91" height="91" rx="45.5" transform="translate(150 70) rotate(90)" fill="#132f63"/>
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="67" height="67" rx="33.5" transform="translate(138 82) rotate(90)" fill="#fabb5a"/>
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="41" height="41" rx="20.5" transform="translate(125 95) rotate(90)" fill="#fff"/>
+    </g>
+    <text id="Temperature_Converter" data-name="Temperature 
+Converter" transform="translate(2382 -93)" fill="#132f63" font-size="32" font-family="Muli-Black, Muli" font-weight="800" letter-spacing="0.01em"><tspan x="0" y="0">Temperature </tspan><tspan x="0" y="40">Converter</tspan></text>
+  </g>
+</svg>
