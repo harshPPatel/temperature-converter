@@ -3,5 +3,5 @@
   "name": "temperature-converter",
   "builds": [{ "src": "dist/**", "use": "@now/static" }],
   "routes": [{ "src": "/(.*)", "dest": "dist/$1" }],
-  "alias": ["temperature-converter.now.sh"]
+  "alias": ["the-temperature-converter.now.sh"]
 }
