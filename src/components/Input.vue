@@ -6,6 +6,7 @@
     size="1"
     :value="value"
     @input="changeHandler"
+    @click="e => e.target.select()"
     step="0.1"
     :autofocus="autofocus"
   />
@@ -46,7 +47,7 @@ $secondary-color: #132f63;
 
 input {
   height: auto;
-  width: 100%;
+  width: 90%;
   max-width: 450px;
   font-size: 150px;
   font-family: "Muli", Helvetica, Arial;
@@ -57,6 +58,13 @@ input {
   background: transparent;
   border-bottom: 4px solid rgba($primary-color, 0.5);
 
+  @media (max-width: 868px) {
+    font-size: 100px;
+  }
+  @media (max-width: 568px) {
+    font-size: 70px;
+    border-width: 2px;
+  }
   &:focus {
     border-color: $primary-color;
   }

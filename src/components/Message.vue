@@ -34,12 +34,21 @@ $secondary-color: #132f63;
   border: 5px solid $primary-color;
   background-color: white;
   padding: 20px 30px;
+
+  @media (max-width: 668px) {
+    display: none;
+  }
+
   p {
     font-size: 28px;
     font-weight: 800;
     display: inline-block;
     color: $primary-color;
     margin: 0;
+
+    @media (max-width: 568px) {
+      font-size: 20px;
+    }
   }
 
   &.is-cold {

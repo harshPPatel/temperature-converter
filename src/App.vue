@@ -1,6 +1,6 @@
 <template>
   <div class="root">
-    <Logo></Logo>
+    <Logo />
     <div id="app" :class="{ 'is-cold': isCold }">
       <div class="row">
         <div class="col-6 celsius-section">
@@ -73,7 +73,7 @@ body,
 .root {
   width: 100%;
   height: 100vh;
-  max-height: 100vh;
+  min-height: 700px;
   margin: 0;
   font-family: "Muli", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -112,6 +112,13 @@ body,
   align-items: center;
   justify-content: flex-start;
 
+  @media (max-width: 668px) {
+    flex-direction: column;
+    .col-6 {
+      width: 100% !important;
+    }
+  }
+
   .col-6 {
     width: 50%;
     height: 100%;
@@ -123,6 +130,13 @@ body,
       font-size: 64px;
       letter-spacing: 3px;
       margin-top: 24px;
+      @media (max-width: 868px) {
+        font-size: 48px;
+      }
+      @media (max-width: 568px) {
+        font-size: 28px;
+        font-weight: 700;
+      }
     }
   }
 }
