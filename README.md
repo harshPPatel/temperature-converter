@@ -1,7 +1,5 @@
 # temperature-converter
 
-<<<<<<< HEAD
-
 ## Project setup
 
 ```
